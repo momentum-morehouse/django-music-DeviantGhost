@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{{ album.title }}
+
+<p><a href="{% url 'list_albums' %}">Back</a></p>
+{% endblock %}
